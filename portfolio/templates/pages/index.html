@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class='card text-center'>
+  <div class='card-body'>
+    <h1> Welcome to Gus Schmidt's development portfolio </h1>
+    <a class='btn btn-dark' href="{% url 'projects:index' %}">
+      See Completed Projects
+    </a>
+  </div>
+</div>
+{% endblock %}
